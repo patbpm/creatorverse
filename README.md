@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - *👉🏿 CREATORVERSE*
 
-Submitted by: **👉🏿 your name here**
+Submitted by: **👉🏿 Patrick Matshumba**
 
-About this web app: **👉🏿 app description here**
+About this web app: **👉🏿 Creatorverse is a dynamic platform designed to showcase and manage content creators from various domains such as Twitch, YouTube, Instagram, and TikTok. This app allows users to explore, view, and interact with their favorite creators while also providing tools for managing and curating creator profiles. Whether you’re looking to discover new content, update creator information, or maintain a personal collection of top creators, Creatorverse offers a seamless and visually stunning experience.**
 
-Time spent: **👉🏿 X** hours
+Time spent: **👉🏿 ~3** hours
 
 ## Required Features
 
@@ -27,18 +27,15 @@ The following **optional** features are implemented:
 - [ ] The content creator items are displayed in a creative format, like cards instead of a list
 - [ ] An image of each content creator is shown on their content creator card
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='./public/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+GIF created with ...  👉🏿 [LICEcap](https://www.cockos.com/licecap/)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -50,11 +47,10 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright [👉🏿 2024] [👉🏿 Patrick Matshumba]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 > http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-Finale
