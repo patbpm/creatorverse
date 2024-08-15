@@ -1,0 +1,109 @@
+/* Container for the form */
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f7f9fb; 
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .text-center {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: linear-gradient(45deg, #ff6f61, #d4a5a5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input fields styling */
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Input fields focus styling */
+  .input:focus,
+  .textarea:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.5);
+    outline: none;
+  }
+  
+  /* Textarea styling */
+  .textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  .button.primary {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(45deg, #ff6f61, #d4a5a5);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    margin: 2rem 0 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Button hover effect */
+  .button.primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .button.primary:hover::before {
+    opacity: 1;
+  }
+  
+  .button.primary:hover {
+    background: linear-gradient(45deg, #d4a5a5, #ff6f61);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+  }
+  
